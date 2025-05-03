@@ -1,0 +1,83 @@
+ [
+  {
+    "Front-End": [
+      { "title": "HTML5", "imageSrc": "skills/html.png" },
+      { "title": "CSS3", "imageSrc": "skills/css.png" },
+      { "title": "JavaScript (ES6+)", "imageSrc": "skills/javascript.png" },
+      { "title": "TypeScript", "imageSrc": "skills/typescript.png" },
+      { "title": "React.js", "imageSrc": "skills/react.png" },
+      { "title": "Redux", "imageSrc": "skills/redux.png" },
+      { "title": "Next.js", "imageSrc": "skills/nextjs.png" },
+      { "title": "Material UI", "imageSrc": "skills/mui.png" },
+      { "title": "Bootstrap", "imageSrc": "skills/bootstrap.png" },
+      { "title": "Tailwind", "imageSrc": "skills/tailwind.png" },
+      { "title": "ASP.Net", "imageSrc": "skills/aspnet.png" },
+      { "title": "Dot Net", "imageSrc": "skills/dotnet.png" },
+      { "title": "Figma", "imageSrc": "skills/figma.png" }
+    ]
+  },
+  {
+    "Backend": [
+      { "title": "Node.js", "imageSrc": "skills/node.png" },
+      { "title": "Express.js", "imageSrc": "skills/express.png" },
+      { "title": "RESTful APIs", "imageSrc": "skills/restapi1.png" },
+      { "title": "C#", "imageSrc": "skills/csharp.png" }
+    ]
+  },
+  {
+    "Architecture": [
+      { "title": "MVC", "imageSrc": "skills/mvc.png" },
+      { "title": "MVVM", "imageSrc": "skills/mvvm.png" }
+    ]
+  },
+  {
+    "Version Control": [
+      { "title": "Git", "imageSrc": "skills/git.png" },
+      { "title": "GitHub", "imageSrc": "skills/github.png" },
+      { "title": "Bitbucket", "imageSrc": "skills/bitbucket.png" }
+    ]
+  },
+  {
+    "Tools/Technologies": [
+      { "title": "Webpack", "imageSrc": "skills/webpack.png" },
+      { "title": "Babel", "imageSrc": "skills/babel.png" },
+      { "title": "NPM", "imageSrc": "skills/npm.png" },
+      { "title": "Postman", "imageSrc": "skills/postman.png" },
+      { "title": "Swagger", "imageSrc": "skills/swagger.png" },
+      { "title": "OpenAPI", "imageSrc": "skills/openapi.png" },
+      { "title": "Axios", "imageSrc": "skills/axios.png" }
+    ]
+  },
+  {
+    "Testing": [
+      { "title": "TDD", "imageSrc": "skills/tdd.png" },
+      { "title": "BDD", "imageSrc": "skills/bdd.png" },
+      { "title": "ViTest", "imageSrc": "skills/vitest.png" },
+      { "title": "Jest", "imageSrc": "skills/jest.png" },
+      { "title": "React Testing Library", "imageSrc": "skills/testinglibrary.png" },
+      { "title": "Thunder Client", "imageSrc": "skills/thunderclient.png" }
+    ]
+  },
+  {
+    "Databases": [
+      { "title": "MongoDB", "imageSrc": "skills/mongodb.png" },
+      { "title": "MySQL", "imageSrc": "skills/mysql.png" },
+      { "title": "MS SQL Server", "imageSrc": "skills/mssql.png" },
+      { "title": "Firebase", "imageSrc": "skills/firebase.png" },
+      { "title": "Postgres", "imageSrc": "skills/postgres.png" }
+    ]
+  },
+  {
+    "CI/CD": [
+      { "title": "Jenkins", "imageSrc": "skills/jenkins.png" },
+      { "title": "Git Actions", "imageSrc": "skills/githubactions.png" }
+    ]
+  },
+  {
+    "Cloud/Hosting": [
+      { "title": "Azure", "imageSrc": "skills/azure.png" },
+      { "title": "AWS", "imageSrc": "skills/aws.png" },
+      { "title": "Netlify", "imageSrc": "skills/netlify.png" }
+    ]
+  }
+]

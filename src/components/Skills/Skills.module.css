@@ -1,0 +1,211 @@
+@import "../../var.css";
+
+/* Global Styles */
+.container {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+/* Tabs Styles */
+.tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    gap: 10px;
+}
+
+.tabButton {
+    padding: 10px 20px;
+    border: 2px solid var(--color-secondary);
+    background: transparent;
+    color: var(--color-text);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.tabButton:hover {
+    background: var(--color-secondary);
+    color: #fff;
+}
+
+.activeTab {
+    background: var(--color-secondary);
+    color: #fff;
+}
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 50px; /* space for dots & buttons */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.slide {
+    width: 100%;
+    display: none;
+  }
+
+.activeSlide {
+    display: block;
+}
+
+.category {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: gold;
+}
+
+.category h2 {
+    color: var(--color-roboto);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+.skill {
+    margin: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(20% - 150px);
+}
+
+.imageContainer {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.imageContainer:hover {
+    transform: scale(1.1);
+}
+
+.imageContainer img {
+    width: 50px;
+    height: 50px;
+}
+
+.skill p {
+    font-size: 18px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    text-align: center;
+    color: var(--color-text);
+}
+
+/* Play/Pause Button and Dots */
+/* .playPauseButton {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-secondary);
+    color: #fff;
+    cursor: pointer;
+} */
+
+.playPauseButton {
+    margin: 40px auto 20px; /* ✅ More space above and below */
+    display: block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-secondary);
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+.dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.activeDot {
+    background-color: var(--color-secondary);
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .skill {
+    width: 90px;
+    }
+
+    .imageContainer {
+    width: 90px;
+    height: 90px;
+    }
+
+    .imageContainer img {
+    width: 50px;
+    height: 50px;
+    }
+
+    .skill p {
+    font-size: 14px;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+    opacity: 0;
+    transform: translateY(20px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+.skill {
+    animation: fadeIn 0.5s ease forwards;
+}

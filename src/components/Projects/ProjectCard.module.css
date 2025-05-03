@@ -1,0 +1,83 @@
+@import "../../var.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* ✅ Push top and bottom apart */
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #132853 100%);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 18px 24px;
+    max-width: 345px;
+    margin-left: 10%;
+    min-height: 580px; /* ✅ Your fixed height */
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+.container:hover {
+    transform: scale(1.05); /* Grows 5% */
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4); /* Adds deeper shadow pop */
+}
+
+.image {
+    margin-bottom: 26px;
+    width: 100px;
+    height: 80px;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 10%;
+}
+
+.description {
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    align-items: center;
+}
+
+.skills {
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+}
+
+.skill {
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 2px 22px;
+    color: #fff;
+}
+
+.links {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: underline;
+    color: var(--color-text);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: var(--color-primary);
+    padding: 1px 22px;
+}

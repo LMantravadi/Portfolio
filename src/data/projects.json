@@ -1,0 +1,18 @@
+[
+    {
+      "title": "Wordle Game Clone",
+      "imageSrc": "projects/wordle-game-logo.png",
+      "description": "Built a custom Wordle-style word game using React.js and CSS Grid, featuring interactive gameplay, real-time feedback, and responsive design. Demonstrates my front-end skills in game logic, state handling, and UI design.",
+      "skills": ["React", "TypeScript", "HTML", "CSS", "Context API", "Responsive Design", "fetchAPI", "State Management"],
+      "demo": "https://lmantravadi.github.io/Wordle/",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "TicTacToe",
+      "imageSrc": "projects/tictactoe.png",
+      "description": "Built a Tic Tac Toe game using React.js, featuring dynamic player turns, win/draw detection, and a rematch option. Demonstrates my skills in game logic, state management, and interactive UI design.",
+      "skills": ["React", "JavaScript", "HTML", "CSS", "State Management"],
+      "demo": "https://lmantravadi.github.io/TicTacToe/",
+      "source": "https://www.github.com"
+    }
+  ]
