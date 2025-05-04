@@ -1,6 +1,5 @@
 import React from "react";
 import workHistory from "../../data/history.json";
-import { getImageUrl } from "../../utils";
 import styles from "./Experience.module.css";
 
 export const Experience = () => {
@@ -12,10 +11,7 @@ export const Experience = () => {
           {workHistory.map((work, id) => {
             return (
               <li key={id} className={styles.historyItem}>
-                <img
-                  src={getImageUrl(work.imageSrc)}
-                  alt={`${work.client} Logo`}
-                />
+                <img src={work.imageSrc} alt={`${work.client} Logo`} />
                 <div className={styles.historyItemDetails}>
                   <h3>{`${work.role}, ${work.client}`}</h3>
                   <p>{`${work.startDate} - ${work.endDate}`}</p>

@@ -11,7 +11,7 @@
         "Delivered secure portals, automated reporting, and modernized legacy apps. ", 
         "Improved data performance and enabled real-time tracking and compliance for NYC schools."
                       ],
-      "imageSrc": "history/NYCDOE.png"
+      "imageSrc": "assets/history/NYCDOE.png"
     },
     {
       "role": "Software Engineer",
@@ -22,7 +22,7 @@
       "endDate": "Nov, 2006",
       "experiences": ["Built WaMu’s Redemption Management System, modernizing legacy apps with C#, ASP.NET, and SQL Server.",
        "Enhanced security with credential-based access, optimized data processing, and automated reports and exports for financial operations."],
-      "imageSrc": "history/wamu.png"
+      "imageSrc": "assets/history/wamu.png"
     },
     {
       "role": "Software Developer",
@@ -35,6 +35,6 @@
        "Developed a secure, bilingual Student Management System for Udine University using C#, WinForms, SQL Server, and SSRS.", 
        "Delivered role-based access, optimized data queries, and generated academic reports and certificates for staff and students."
       ],
-      "imageSrc": "history/netflix.png"
+      "imageSrc": "assets/history/Udine.png"
     }
   ]

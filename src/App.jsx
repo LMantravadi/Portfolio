@@ -4,7 +4,7 @@ import BackToTop from "./components/BackToTop/BackToTop";
 import { ContactMe } from "./components/Contact/ContactMe";
 import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
-import { NavBar } from "./components/NavBar/NavBar";
+import { NavBar } from "./components/NavBar/Navbar";
 import { Projects } from "./components/Projects/projects";
 import { Skills } from "./components/Skills/Skills";
 

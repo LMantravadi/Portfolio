@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Skills.module.css";
 import skills from "../../data/skills.json";
-import { getImageUrl } from "../../utils";
 import { useState, useEffect } from "react";
 
 export const Skills = () => {
@@ -39,7 +38,7 @@ export const Skills = () => {
               {category[Object.keys(category)[0]].map((skill, skillIndex) => (
                 <div key={skillIndex} className={styles.skill}>
                   <div className={styles.imageContainer}>
-                    <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                    <img src={skill.imageSrc} alt={skill.title} />
                   </div>
                   <p>{skill.title}</p>
                 </div>
@@ -67,102 +66,3 @@ export const Skills = () => {
     </div>
   );
 };
-
-// ===============================================
-// export const Skills = () => {
-//   const categoryNames = skills.map((cat) => Object.keys(cat)[0]);
-//   const [activeTab, setActiveTab] = useState(categoryNames[0]); // Start with first category
-
-//   return (
-//     <div className={styles.container} id="skills">
-//       <h3 className={styles.title}>My Skill Set</h3>
-
-//       {/* Tabs */}
-//       <div className={styles.tabs}>
-//         {categoryNames.map((category) => (
-//           <button
-//             key={category}
-//             className={`${styles.tabButton} ${
-//               activeTab === category ? styles.activeTab : ""
-//             }`}
-//             onClick={() => setActiveTab(category)}
-//           >
-//             {category}
-//           </button>
-//         ))}
-//       </div>
-
-//       {/* Skills Grid */}
-//       <div className={styles.skills}>
-//         {skills
-//           .find((catObj) => Object.keys(catObj)[0] === activeTab)
-//           [activeTab].map((skill, idx) => (
-//             <div key={idx} className={styles.skill}>
-//               <div className={styles.imageContainer}>
-//                 <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-//               </div>
-//               <p>{skill.title}</p>
-//             </div>
-//           ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// ====================================================
-// import React from "react";
-// import styles from "./Skills.module.css";
-// import skills from "../../data/skills.json";
-// import { getImageUrl } from "../../utils";
-
-// export const Skills = () => {
-//   return (
-//     <div className={styles.container} id="skills">
-//       <h3 className={styles.title}>My Skill Set</h3>
-
-//       <div className={styles.content}>
-//         <div className={styles.skills}>
-//           {skills.map((skill, id) => {
-//             console.log(skill);
-//             <div key={id} className={styles.skill}>
-//               <div className={styles.imageContainer}>
-//                 <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-//               </div>
-//               <p>{skill.title}</p>
-//             </div>;
-//           })}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// ====================================================
-
-// import React from "react";
-// import styles from "./Skills.module.css";
-// import skills from "../../data/skills.json";
-// import { getImageUrl } from "../../utils";
-
-// export const Skills = () => {
-//   return (
-//     <div className={styles.container} id="skills">
-//       <h3 className={styles.title}>My skill set</h3>
-//       <div className={styles.content}>
-//         <div className={styles.skills}>
-//           {skills.map((skill, id) => {
-//             return (
-//               <div key={id} className={styles.skill}>
-//                 <div className={styles.imageContainer}>
-//                   <img src={getImageUrl(skill.imageSrc)} alt="" />
-//                 </div>
-//                 <p>{skill.title}</p>
-//               </div>
-//             );
-//           })}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-// ====================================================

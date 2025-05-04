@@ -1,83 +1,83 @@
  [
   {
     "Front-End": [
-      { "title": "HTML5", "imageSrc": "skills/html.png" },
-      { "title": "CSS3", "imageSrc": "skills/css.png" },
-      { "title": "JavaScript (ES6+)", "imageSrc": "skills/javascript.png" },
-      { "title": "TypeScript", "imageSrc": "skills/typescript.png" },
-      { "title": "React.js", "imageSrc": "skills/react.png" },
-      { "title": "Redux", "imageSrc": "skills/redux.png" },
-      { "title": "Next.js", "imageSrc": "skills/nextjs.png" },
-      { "title": "Material UI", "imageSrc": "skills/mui.png" },
-      { "title": "Bootstrap", "imageSrc": "skills/bootstrap.png" },
-      { "title": "Tailwind", "imageSrc": "skills/tailwind.png" },
-      { "title": "ASP.Net", "imageSrc": "skills/aspnet.png" },
-      { "title": "Dot Net", "imageSrc": "skills/dotnet.png" },
-      { "title": "Figma", "imageSrc": "skills/figma.png" }
+      { "title": "HTML5", "imageSrc": "assets/skills/html.png" },
+      { "title": "CSS3", "imageSrc": "assets/skills/css.png" },
+      { "title": "JavaScript (ES6+)", "imageSrc": "assets/skills/javascript.png" },
+      { "title": "TypeScript", "imageSrc": "assets/skills/typescript.png" },
+      { "title": "React.js", "imageSrc": "assets/skills/react.png" },
+      { "title": "Redux", "imageSrc": "assets/skills/redux.png" },
+      { "title": "Next.js", "imageSrc": "assets/skills/nextjs.png" },
+      { "title": "Material UI", "imageSrc": "assets/skills/mui.png" },
+      { "title": "Bootstrap", "imageSrc": "assets/skills/bootstrap.png" },
+      { "title": "Tailwind", "imageSrc": "assets/skills/tailwind.png" },
+      { "title": "ASP.Net", "imageSrc": "assets/skills/aspnet.png" },
+      { "title": "Dot Net", "imageSrc": "assets/skills/dotnet.png" },
+      { "title": "Figma", "imageSrc": "assets/skills/figma.png" }
     ]
   },
   {
     "Backend": [
-      { "title": "Node.js", "imageSrc": "skills/node.png" },
-      { "title": "Express.js", "imageSrc": "skills/express.png" },
-      { "title": "RESTful APIs", "imageSrc": "skills/restapi1.png" },
-      { "title": "C#", "imageSrc": "skills/csharp.png" }
+      { "title": "Node.js", "imageSrc": "assets/skills/node.png" },
+      { "title": "Express.js", "imageSrc": "assets/skills/express.png" },
+      { "title": "RESTful APIs", "imageSrc": "assets/skills/restapi1.png" },
+      { "title": "C#", "imageSrc": "assets/skills/csharp.png" }
     ]
   },
   {
     "Architecture": [
-      { "title": "MVC", "imageSrc": "skills/mvc.png" },
-      { "title": "MVVM", "imageSrc": "skills/mvvm.png" }
+      { "title": "MVC", "imageSrc": "assets/skills/mvc.png" },
+      { "title": "MVVM", "imageSrc": "assets/skills/mvvm.png" }
     ]
   },
   {
     "Version Control": [
-      { "title": "Git", "imageSrc": "skills/git.png" },
-      { "title": "GitHub", "imageSrc": "skills/github.png" },
-      { "title": "Bitbucket", "imageSrc": "skills/bitbucket.png" }
+      { "title": "Git", "imageSrc": "assets/skills/git.png" },
+      { "title": "GitHub", "imageSrc": "assets/skills/github.png" },
+      { "title": "Bitbucket", "imageSrc": "assets/skills/bitbucket.png" }
     ]
   },
   {
     "Tools/Technologies": [
-      { "title": "Webpack", "imageSrc": "skills/webpack.png" },
-      { "title": "Babel", "imageSrc": "skills/babel.png" },
-      { "title": "NPM", "imageSrc": "skills/npm.png" },
-      { "title": "Postman", "imageSrc": "skills/postman.png" },
-      { "title": "Swagger", "imageSrc": "skills/swagger.png" },
-      { "title": "OpenAPI", "imageSrc": "skills/openapi.png" },
-      { "title": "Axios", "imageSrc": "skills/axios.png" }
+      { "title": "Webpack", "imageSrc": "assets/skills/webpack.png" },
+      { "title": "Babel", "imageSrc": "assets/skills/babel.png" },
+      { "title": "NPM", "imageSrc": "assets/skills/npm.png" },
+      { "title": "Postman", "imageSrc": "assets/skills/postman.png" },
+      { "title": "Swagger", "imageSrc": "assets/skills/swagger.png" },
+      { "title": "OpenAPI", "imageSrc": "assets/skills/openapi.png" },
+      { "title": "Axios", "imageSrc": "assets/skills/axios.png" }
     ]
   },
   {
     "Testing": [
-      { "title": "TDD", "imageSrc": "skills/tdd.png" },
-      { "title": "BDD", "imageSrc": "skills/bdd.png" },
-      { "title": "ViTest", "imageSrc": "skills/vitest.png" },
-      { "title": "Jest", "imageSrc": "skills/jest.png" },
-      { "title": "React Testing Library", "imageSrc": "skills/testinglibrary.png" },
-      { "title": "Thunder Client", "imageSrc": "skills/thunderclient.png" }
+      { "title": "TDD", "imageSrc": "assets/skills/tdd.png" },
+      { "title": "BDD", "imageSrc": "assets/skills/bdd.png" },
+      { "title": "ViTest", "imageSrc": "assets/skills/vitest.png" },
+      { "title": "Jest", "imageSrc": "assets/skills/jest.png" },
+      { "title": "React Testing Library", "imageSrc": "assets/skills/testinglibrary.png" },
+      { "title": "Thunder Client", "imageSrc": "assets/skills/thunderclient.png" }
     ]
   },
   {
     "Databases": [
-      { "title": "MongoDB", "imageSrc": "skills/mongodb.png" },
-      { "title": "MySQL", "imageSrc": "skills/mysql.png" },
-      { "title": "MS SQL Server", "imageSrc": "skills/mssql.png" },
-      { "title": "Firebase", "imageSrc": "skills/firebase.png" },
-      { "title": "Postgres", "imageSrc": "skills/postgres.png" }
+      { "title": "MongoDB", "imageSrc": "assets/skills/mongodb.png" },
+      { "title": "MySQL", "imageSrc": "assets/skills/mysql.png" },
+      { "title": "MS SQL Server", "imageSrc": "assets/skills/mssql.png" },
+      { "title": "Firebase", "imageSrc": "assets/kills/firebase.png" },
+      { "title": "Postgres", "imageSrc": "assets/skills/postgres.png" }
     ]
   },
   {
     "CI/CD": [
-      { "title": "Jenkins", "imageSrc": "skills/jenkins.png" },
-      { "title": "Git Actions", "imageSrc": "skills/githubactions.png" }
+      { "title": "Jenkins", "imageSrc": "assets/skills/jenkins.png" },
+      { "title": "Git Actions", "imageSrc": "assets/skills/githubactions.png" }
     ]
   },
   {
     "Cloud/Hosting": [
-      { "title": "Azure", "imageSrc": "skills/azure.png" },
-      { "title": "AWS", "imageSrc": "skills/aws.png" },
-      { "title": "Netlify", "imageSrc": "skills/netlify.png" }
+      { "title": "Azure", "imageSrc": "assets/skills/azure.png" },
+      { "title": "AWS", "imageSrc": "assets/skills/aws.png" },
+      { "title": "Netlify", "imageSrc": "assets/skills/netlify.png" }
     ]
   }
 ]

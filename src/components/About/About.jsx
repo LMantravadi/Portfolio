@@ -1,10 +1,5 @@
 import React from "react";
-// import aboutImage from "../../assets/about/aboutImage.png";
-// import cursorIconImage from "../../assets/about/cursorIcon.png";
-// import serverIconImage from "../../assets/about/serverIcon.png";
-// import uiIconImage from "../../assets/about/uiIcon.png";
 import styles from "./About.module.css";
-import { getImageUrl } from "../../utils";
 
 export const About = () => {
   return (
@@ -12,14 +7,14 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src="about/aboutImage.png" //{getImageUrl("about/aboutImage.png")}
+          src="assets/about/aboutImage.png"
           alt="About Me"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img alt="front-end icon" src="about/frontend.png" />
-            {/* {getImageUrl("about/frontend.png")}  */}
+            <img alt="front-end icon" src="assets/about/frontend.png" />
+
             <div className={styles.aboutItemText}>
               <h3>Front-end Developer</h3>
               <p>
@@ -30,11 +25,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img
-              src="assets/about/backend.png"
-              //src={getImageUrl("about/backend.png")}
-              alt="backend icon"
-            />
+            <img src="assets/about/backend.png" alt="backend icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
@@ -45,11 +36,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img
-              src="assets/about/fullstack.png"
-              //src={getImageUrl("about/fullstack.png")}
-              alt="full Stack icon"
-            />
+            <img src="assets/about/fullstack.png" alt="full Stack icon" />
             <div className={styles.aboutItemText}>
               <h3>Full Stack developer</h3>
               <p>
