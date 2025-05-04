@@ -1,6 +1,6 @@
 import React from "react";
-// import { getImageUrl } from "../../utils";
-import heroImage from "../../assets/hero/heroImage.png";
+import { getImageUrl } from "../../utils";
+// import heroImage from "../../assets/hero/heroImage.png";
 import styles from "./Hero.module.css";
 
 export const Hero = () => {
@@ -41,7 +41,11 @@ export const Hero = () => {
         </div>
       </div>
 
-      <img src={heroImage} alt="Hero" className={styles.heroImg} />
+      <img
+        src={getImageUrl("hero/heroImage.png")}
+        alt="Hero"
+        className={styles.heroImg}
+      />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>

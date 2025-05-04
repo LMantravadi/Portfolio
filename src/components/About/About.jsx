@@ -1,8 +1,8 @@
 import React from "react";
-import aboutImage from "../../assets/about/aboutImage.png";
-import cursorIconImage from "../../assets/about/cursorIcon.png";
-import serverIconImage from "../../assets/about/serverIcon.png";
-import uiIconImage from "../../assets/about/uiIcon.png";
+// import aboutImage from "../../assets/about/aboutImage.png";
+// import cursorIconImage from "../../assets/about/cursorIcon.png";
+// import serverIconImage from "../../assets/about/serverIcon.png";
+// import uiIconImage from "../../assets/about/uiIcon.png";
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
 
